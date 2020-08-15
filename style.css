@@ -1,0 +1,293 @@
+html {
+	font-family: Times New Roman, sans-serif;
+	font-size: 20px;
+	color: rgb(101,101,101);
+	cursor: default;	
+}
+
+body{
+	width: 100% ;
+	margin: 0 auto;
+}
+
+body:hover {
+}
+
+a {
+	color: black;
+	text-decoration: underline;
+}
+
+h1, h2{
+	font-family: Open Sans, sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center
+}
+
+h1 {
+	font-size: 72px;
+	padding: 20px;
+}
+
+h2 {
+	color: black;
+	font-size: 20px;
+	padding: 20px
+}
+
+.container {
+	width: 100%;
+	padding: 0;
+	margin: 0 auto;
+}
+
+/* navigation */
+
+.navbar {
+	width: 100%;
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	background-color: white;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Open Sans, sans-serif;
+}
+
+.navbar div {
+	margin: 0.5em 1em 0.5em 1em;
+}
+
+.logo a {
+	font-weight: lighter;
+	color: rgb(101,101,101);
+	text-align: center;
+	text-decoration: none;
+	font-size: 24px;
+}
+
+.menu ul {
+	display: inline-flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.menu ul > li {
+	margin: 0em 1em 0em 1em;
+	list-style-type: none;
+}
+
+.menu ul > li:hover {
+	cursor: pointer;
+	color: black
+}
+
+/* image container */
+
+.img-bg {
+	width: 100%;
+	height: 70vh;
+	background-position: center center ;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.title {
+	display: flex;	
+	justify-content: center;
+	align-items: center;
+	width: 90%;
+}
+
+.title h1 {
+	color: white;	
+}
+
+.icon {
+	width: 100%;
+	margin-top: -80px;
+	position: -50px;
+	text-align: center;
+}
+.icon img {
+	width: 160px;
+	border: 10px solid white;
+	box-shadow: 0 0 3px #ddd;
+	border-radius: 50%;
+	background-color: white; 
+}
+
+/* text container */
+
+
+.text-container {
+	margin: 30px auto 50px auto;
+	padding: 0 15px 0 15px;
+	max-width: 768px;
+}
+
+.perex {
+	color: black;
+	font-style: italic; 
+	font-size: 24px;
+	font-weight: lighter;
+	line-height: 35px
+}
+
+.img {
+	max-width: 1280px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px
+}
+
+.img img {
+	width: 100%;
+	height: auto;
+	position: top
+}
+
+.img-wrap {
+	margin: 10px;
+	float: right;
+}
+
+.wrap {
+	width: 260px;
+	height: 260px;
+	background-image: url(./img/imgWrap.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: right;
+	margin: 10px;
+}
+
+/* video links */
+
+.video-container {
+	display: flex ;
+	justify-content: center;
+	align-items: baseline;
+	text-align: center;
+	flex-wrap: wrap;
+	margin-bottom: 70px
+}
+
+.video {
+	width: 250px;
+	padding: 20px;
+}
+
+.video-detail {
+	width: 100%;
+	background-size: cover;
+	text-align: center;
+	vertical-align: center;
+	float: left;
+	line-height: 200px;
+	margin-bottom: 10px
+}
+
+.video-detail:hover {
+	opacity: 0.9
+}
+
+.img-desc p {
+	padding-top: 20px;
+}
+
+.play-button {
+	width: 120px;
+	vertical-align: middle;
+	fill: white;
+	opacity: 0.8
+}
+
+.play-button:hover {
+	fill: rgb(229,229,229);	
+}
+
+.science {
+	background-image: url(./img/video/science.png);
+	background-color: black
+}
+
+.big-data {
+	background-image: url(./img/video/big-data.jpg);	
+}
+
+.hunt {
+	background-image: url(./img/video/hunt.jpg);	
+}
+
+.dna {
+	background-image: url(./img/video/dna.jpeg);		
+}
+
+/* footer */
+
+.footer {
+	width: 100%;
+	margin: 0 auto;
+	padding: 5rem 0 5rem 0;
+	background-color: rgb(229,229,229);
+	text-align: center;
+}
+
+.icon-svg {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	padding: 10px;
+
+}
+
+.icon-svg {
+	fill: rgb(75,75,75);
+	border-radius: 20%
+}
+
+.icon-svg:hover {
+	fill: black;
+}
+
+@media screen and (min-width: 992px) {
+	.img-bg {
+		background-image: url(./img/bg.jpg);
+	}
+
+	.img img {
+		background-image:  url(./img/image.png)
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.img-bg {
+		background-image: url(./img/bg-medium.jpg);
+	}
+	.img img {
+		background-image:  url(./img/image-medium.png)
+	}
+}
+
+@media screen and (max-width: 600px) {
+    .img-bg {
+		background-image: url(./img/bg-small.jpg);
+	}
+	.img img {
+		background-image: url(./img/image-small.png)
+	}
+	.wrap {
+		display: none
+	}
+}
+
+
+
