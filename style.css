@@ -277,6 +277,19 @@ h2 {
 	}
 }
 
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  { 
+	.img-bg {
+		background: url(./img/media/bg-image/bg-medium.jpg);
+		background-size: cover;
+		background-position: top
+	}
+	.img {
+		background-image:  url(./img/media/image/image-medium.png);
+		height: 430px;
+		margin: 30px;
+	}
+}
+
 @media screen and (min-width: 600px) and (max-width: 992px) {
 	.img-bg {
 		background: url(./img/media/bg-image/bg-medium.jpg);
