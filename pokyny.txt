@@ -1,0 +1,22 @@
+Pokyny:
+Pár drobných instrukcí a upřesnění, které se mohou hodit:
+
+- Menu v záhlaví webu bude mít vždy pouze dvě položky, stejně jako na obrázku.
+- Titulní fotka je vždy přes celou šířku obrazovky a chtěli bychom, aby vždy vykukoval alespoň kus obsahu pod ní (nehledě na rozlišení).
+- Šířka textu je 768px, větší šířka pro obrázky je 1280px.
+- Jsou použity dva fonty - nesystémový webový font Open Sans (bold) pro nadpisy a záhlaví, klasický systémový Times New Roman pro texty. Perex má 24px, nadpis stránky 72px, zbytek 20px.
+- Kam povedou odkazy v textu je jedno, klidně použijte href="#".
+- Čtyři obrázky vedle sebe jsou odkazy na videa (opět stačí href="#").
+- Odkazy na sociální sítě v patičce opět href="#".
+- Odsazení mezi prvky (padding, margin) nemusí být na pixel stejné jako v obrázku -- na první pohled by to mělo "stejně hezky" vypadat, ale konkrétní čísla zvolte, jaká se vám budou hodit.
+- "Hover efekty" aktivních prvků necháváme na vás.
+- Web by měl být plně responzivní.
+- Web by měl fungovat v posledních 2 verzích nejrozšířenějších prohlížečů.
+
+Pokud máte dobrý důvod nedržet se našeho zadání, udělejte to podle svého. Budeme ale rádi, když nám tento důvod sdělíte :)
+Libovolné dotazy rádi zodpovíme a upřesníme :)
+
+Tel 603 232 912
+
+
+
