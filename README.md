@@ -1,7 +1,7 @@
 Co a proč se liší od zadání :
 - jiné obrázky: abych s tím mohla lépe zacházet, nevystřihovala jsem ze zadání
 - ikony sociálních sítí - nepodařilo se mi sehnat free kulatou na LinkedIn. 
-- flexbox poslední verze IE nepodporují, ale Edge ano. snad vyhovuje
+- flexbox poslední dvě verze IE nepodporují, ale Edge ano.
 
 Komentáře: 
 - pozadí v záhlaví a obrázek max šířky 1280px řešen jako background-image s různými soubory pro různá media. nevím, zda je to úplně korektní cesta vzhledem k rozlišení. možná by bylo třeba rozpadnout na více případů. 
